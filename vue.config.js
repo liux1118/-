@@ -3,7 +3,7 @@
 module.exports = {
   // 1.配置方式一：CLI提供的属性
   outputDir: './build',
-  publicPath: '/', //这个必须，引入静态资源需要从根路径引入，否则会找不到静态资源
+  publicPath: './', //这个必须，引入静态资源需要从根路径引入，否则会找不到静态资源
   // 解决跨域问题：在webpack设置devServer => proxy
   devServer: {
     proxy: {
