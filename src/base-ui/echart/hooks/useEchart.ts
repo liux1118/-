@@ -2,8 +2,10 @@ import * as echarts from 'echarts'
 
 // 注册地图
 import ChinaMapData from '../data/china.json'
+import WorldMapData from '../data/world.json'
 
 echarts.registerMap('china', ChinaMapData)
+echarts.registerMap('world', WorldMapData)
 
 export default function (el: HTMLElement) {
   // 可传三个参数(dom, theme, 渲染器)
